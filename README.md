@@ -9,12 +9,12 @@ There are two commands: `set` and `list`
 To list and save the labels in a YAML format file you can run
 
 ```shell
-$ github-gitlab-labels list --github-token xoxoxoxoxo --repo github-labels --org cpanato --save
+$ github-gitlab-labels list --github-token xoxoxoxoxo --repo github-gitlab-labels --org cpanato --save
 ```
 
 To configure the labels in a specific repo
 
 ```shell
-$ github-gitlab-labels set  --github-token xoxoxoxoxo --label-file labels-sample.yaml --repo github-labels --org cpanato
+$ github-gitlab-labels set  --github-token xoxoxoxoxo --label-file labels-sample.yaml --repo github-gitlab-labels --org cpanato
 ```
 
