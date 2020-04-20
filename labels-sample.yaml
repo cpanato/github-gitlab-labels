@@ -1,0 +1,90 @@
+labels:
+- name: '1: PM Review'
+  description: Requires review by a product manager
+  color: 006b75
+- name: '2: Dev Review'
+  description: Requires review by a developer
+  color: eb6420
+- name: '2: Infra Review'
+  description: Requires review by a SRE
+  color: 1d76db
+- name: '2: QA Review'
+  description: Requires review by a QA engineer
+  color: 7cdfe2
+- name: '3: Reviews Complete'
+  description: All reviewers have approved the pull request
+  color: 0e8a16
+- name: Lifecycle/1:stale
+  description: ""
+  color: ededed
+- name: Lifecycle/frozen
+  description: ""
+  color: d3e2f0
+- name: QA/Tests Not Required
+  description: ""
+  color: 3ac192
+- name: do-not-merge
+  description: Should not be merged until this label is removed
+  color: a32735
+- name: do-not-merge/awaiting-PR
+  description: ""
+  color: a32735
+- name: do-not-merge/release-note-label-needed
+  description: ""
+  color: e11d21
+- name: do-not-merge/work-in-progress
+  description: ""
+  color: a32735
+- name: do-not-merge/awaiting-submitter-action
+  description: Blocked on the author
+  color: e11d21
+- name: kind/api-change
+  description: Categorizes issue or PR as related to adding, removing, or otherwise
+    changing an API
+  color: e11d21
+- name: kind/bug
+  description: Categorizes issue or PR as related to a bug.
+  color: e11d21
+- name: kind/cleanup
+  description: Categorizes issue or PR as related to cleaning up code, process, or
+    technical debt.
+  color: c7def8
+- name: kind/deprecation
+  description: Categorizes issue or PR as related to a feature/enhancement marked
+    for deprecation.
+  color: e11d21
+- name: kind/design
+  description: Categorizes issue or PR as related to design.
+  color: c7def8
+- name: kind/documentation
+  description: Categorizes issue or PR as related to documentation.
+  color: c7def8
+- name: kind/feature
+  description: Categorizes issue or PR as related to a new feature.
+  color: c7def8
+- name: kind/regression
+  description: Categorizes issue or PR as related to a regression from a prior release.
+  color: e11d21
+- name: priority/critical-urgent
+  description: Highest priority. Must be actively worked on as someone's top priority
+    right now.
+  color: e11d21
+- name: priority/important-longterm
+  description: Important over the long term, but may not be staffed and/or may need
+    multiple releases to complete.
+  color: eb6420
+- name: priority/important-soon
+  description: Must be staffed and worked on either currently, or very soon, ideally
+    in time for the next release.
+  color: eb6420
+- name: release-note
+  description: Denotes a PR that will be considered when it comes time to generate
+    release notes.
+  color: c2e0c6
+- name: release-note-action-required
+  description: Denotes a PR that introduces potentially breaking changes that require
+    user action.
+  color: c2e0c6
+- name: release-note-none
+  description: Denotes a PR that doesn't merit a release note.
+  color: c2e0c6
